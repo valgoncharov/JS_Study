@@ -1,0 +1,39 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+	
+	var n = +prompt("Пожалуйста, введите число");
+	if(isNaN(n) || n < 0){
+		          //document.wite("Нужно было ввести число");
+	              //} else if(n < 0){
+		document.wite("Нужно было ввести положительное число");
+	} else {
+		 var sum = 0;
+		for(var i = 0; i <= n; i++){
+			sum = sum + i; //sum += i;
+		}
+		document.wite(sum);
+
+</script>
+// другая реализация программы
+
+<meta charset="utf-8">
+<script type="text/javascript">
+	
+	do{
+
+		var n = +prompt("Пожалуйста, введите число");
+	} while(isNaN(n) || n < 0)
+
+
+	{
+		n = +prompt("Пожалуйста, введите число");
+	              //} else if(n < 0){
+		document.wite("Нужно было ввести положительное число");
+	} else {
+		 var sum = 0;
+		for(var i = 0; i <= n; i++){
+			sum = sum + i; //sum += i;
+		}
+		document.wite(sum);
+
+</script>
